@@ -6,10 +6,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.widget.TextView
 import com.rishabhdeepsingh.metaapp.R
 
-class chillzoneActivity : AppCompatActivity() {
+class ChillzoneActivity : AppCompatActivity() {
 
     private lateinit var textMessage: TextView
     private val onNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
+        println("~~~~~~~~~~~~~~~~~~~~~~~~")
+        println(item.itemId)
+        println("~~~~~~~~~~~~~~~~~~~~~~~~")
         when (item.itemId) {
             R.id.navigation_home -> {
                 textMessage.setText(R.string.title_home)
@@ -30,6 +33,7 @@ class chillzoneActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
+        println("~~~~~~~~~~~~~~!!!!!!!!!!!!!!!!!!!!!~~~~~~~~~~")
 
         textMessage = findViewById(R.id.message)
         navView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)

@@ -10,7 +10,7 @@ import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import com.rishabhdeepsingh.metaapp.R
-import com.rishabhdeepsingh.metaapp.ui.chillzone.chillZoneFragment
+import com.rishabhdeepsingh.metaapp.ui.chillzone.ChillZoneFragment
 
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_chillzone -> {
                 supportFragmentManager
                     .beginTransaction()
-                    .replace(R.id.fragment_container, chillZoneFragment())
+                    .replace(R.id.fragment_container, ChillZoneFragment())
                     .commit()
             }
             R.id.nav_slideshow -> {

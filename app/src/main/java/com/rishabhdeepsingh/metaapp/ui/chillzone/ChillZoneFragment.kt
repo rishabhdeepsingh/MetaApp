@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.rishabhdeepsingh.metaapp.R
 
-class chillZoneFragment : Fragment() {
+class ChillZoneFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -15,5 +15,4 @@ class chillZoneFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.chillzone_fragment, container, false)
     }
-
 }
