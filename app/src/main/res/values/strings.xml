@@ -21,4 +21,9 @@
     <string name="meta_app">Meta App</string>
     <string name="communicate">Communicate</string>
     <string name="home_fragment">Home Fragment</string>
+    <string name="hello">Hello</string>
+    <string name="today">Today</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
