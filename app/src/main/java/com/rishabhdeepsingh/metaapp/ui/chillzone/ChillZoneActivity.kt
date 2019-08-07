@@ -92,17 +92,8 @@ class ChillZoneActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
             R.id.nav_view_chillzone -> {
                 Toast.makeText(this, "ChillZone", Toast.LENGTH_SHORT).show()
             }
-            R.id.nav_slideshow -> {
-
-            }
-            R.id.nav_tools -> {
-
-            }
             R.id.nav_share -> {
                 Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show()
-            }
-            R.id.nav_send -> {
-
             }
         }
         mDrawerLayout.closeDrawer(GravityCompat.START)

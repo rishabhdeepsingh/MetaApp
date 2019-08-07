@@ -68,17 +68,8 @@ open class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
                 val intent = Intent(this, ChillZoneActivity::class.java)
                 startActivity(intent)
             }
-            R.id.nav_slideshow -> {
-
-            }
-            R.id.nav_tools -> {
-
-            }
             R.id.nav_share -> {
                 Toast.makeText(this, "$LOG.Share", Toast.LENGTH_SHORT).show()
-            }
-            R.id.nav_send -> {
-
             }
         }
         mDrawerLayout.closeDrawer(GravityCompat.START)
